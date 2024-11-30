@@ -1,0 +1,51 @@
+body
+{
+    background-color: rgb(83, 165, 139);
+    text-align: center;
+}
+h1
+{
+    color: black;
+    background-color: cornflowerblue;
+    border: 2px solid black;
+}
+#maintitle
+{
+    display: flex;
+    background-color: black;
+    color: white;
+    width: fit-content;
+    text-align: center;
+    margin-left: 40%;
+}
+
+.grid
+{
+    padding: 15px;
+}
+.in
+{
+    width: 20px;
+    font-size: larger;
+    padding: auto;
+    margin: 0px;
+}
+
+
+input
+{
+    text-align: center;
+   border: 1px solid black;
+}
+input:hover
+{
+    border:1px solid limegreen;
+    background-color: yellow;
+}
+button
+{
+    background-color: rgb(33, 30, 201);
+    color: white;
+    border-width: fit-content;
+    border-radius: 3px solid black;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+			Backtracking Visualizer
+		</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+	</head>
+	<body style="text-align: center;" onload="construct()">
+		<h1>
+			Backtracking in  SUDOKU
+		</h1>
+        
+       <b>
+        Speed
+    </b>
+    <input type="radio" id="nodelay" name="speed" value="0">
+    <label for="html">noDelay</label>
+<input type="radio" id="half" name="speed" value="100">
+<label for="css">100ms</label>
+<input type="radio" id="one" name="speed" value="250">
+<label for="javascript">250ms</label>
+<input type="radio" id="two" name="speed" value="500">
+<label for="html">500ms </label><br><br>
+            <button id="btn" onClick="start()">
+			    SOLVE
+		    </button>
+            <button id="btn2" onClick="clearGrid()">
+			    CLEAR
+		    </button>
+            <p id="grid" >
+            
+            </p>
+	</body>
+</html>
